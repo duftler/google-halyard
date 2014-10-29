@@ -32,7 +32,7 @@ function download {
   chmod 775 $script_file
 
   echo "Running install script from: $script_file"
-#  $script_file $TOKEN
+  $script_file $TOKEN
 }
 
 download < /dev/tty
